@@ -20,10 +20,11 @@
     }
 </style>
 <body>
-    <table id="myTable" class="hover">
+    <table id="datasetTable" class="hover row-border">
         <thead>
             <tr>
                 <th>Dataset</th>
+                <th>Year</th>
                 <th>No. of Cattle Instances</th>
                 <th>Description</th>
                 <th>Access Link</th>
@@ -31,62 +32,61 @@
         </thead>
         <tbody>
             <tr>
-                <td>AP-10K (<a href="https://arxiv.org/abs/2108.12617">Yu et al., 2021b</a>)</td>
+                <td><a href="https://arxiv.org/abs/2108.12617">AP-10K</a></td>
+                <td>2021</td>
                 <td>323 instances of cows in 200 images</td>
-                <td>Created with the objective of introducing a new benchmark for animal pose estimation in the wild, this dataset contains more that 10,000 images from 54 types of animals (13028 total annotated instances)</td>
-                <td><a href="https://github.com/AlexTheBad/AP-10K">GitHub Repository</a></td>
+                <td>Created with the objective of introducing a new benchmark for animal pose estimation in the wild, this dataset contains more that 10,000 images from 54 types of animals (13028 total annotated instances).</td>
+                <td><a href="https://github.com/AlexTheBad/AP-10K">GitHub</a></td>
             </tr>
 
             <tr>
-                <td>APT-36K (<a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/6e566c91d381bd7a45647d9a90838817-Abstract-Datasets_and_Benchmarks.html">Yang et al., 2022</a>)</td>
+                <td><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/6e566c91d381bd7a45647d9a90838817-Abstract-Datasets_and_Benchmarks.html">APT-36K</a></td>
+                <td>2022</td>
                 <td>47 video clips, 2400 total frames</td>
-                <td>An extension to AP-10K dataset, this dataset additionally focuses on tracking as well, thus video clips where recorded from subjects</td>
-                <td><a href="">GitHub Repository</a></td>
+                <td>An extension to AP-10K dataset, this dataset additionally focuses on tracking as well, thus video clips where recorded from subjects.</td>
+                <td><a href="https://github.com/pandorgan/APT-36K">GitHub</a></td>
             </tr>
-
+            
             <tr>
-                <td>BADJA (<a href="https://link.springer.com/chapter/10.1007/978-3-030-20873-8_1">Biggs et al., 2018</a>)</td>
+                <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-20873-8_1">BADJA</a></td>
+                <td>2018</td>
                 <td>104 images of same cow</td>
-                <td>This dataset has added joint annotation to DAVIS (<a href="https://arxiv.org/abs/1704.00675">Pont-Tuset et al., 2017</a>) video segmentation dataset, and other videos for animal pose estimation</td>
-                <td></td>
+                <td>This dataset has added joint annotation to DAVIS (<a href="https://arxiv.org/abs/1704.00675">Pont-Tuset et al., 2017</a>) video segmentation dataset, and other videos for animal pose estimation.</td>
+                <td><a href="https://github.com/benjiebob/BADJA">GitHub</a></td>
             </tr>
 
             <tr>
-                <td>Animal-Pose (<a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Cao_Cross-Domain_Adaptation_for_Animal_Pose_Estimation_ICCV_2019_paper.html">Cao et al., 2019</a>)</td>
+                <td><a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Cao_Cross-Domain_Adaptation_for_Animal_Pose_Estimation_ICCV_2019_paper.html">Animal-Pose</a></td>
+                <td>2019</td>
                 <td>842 instances in 534 images</td>
-                <td>This animal pose estimation dataset contains 4000+ images, having more than 6000 instances of 5 types of animal: dog, cat, cow, horse, sheep</td>
-                <td></td>
+                <td>This animal pose estimation dataset contains 4000+ images, having more than 6000 instances of 5 types of animal: dog, cat, cow, horse, sheep.</td>
+                <td><a href="https://sites.google.com/view/animal-pose/">Webpage</a></td>
             </tr>
 
             <tr>
-                <td>Poselets (<a href="https://www.proquest.com/openview/9400cedc31ee16a5110c317d2e7b2cd2/1?pq-origsite=gscholar&cbl=18750">Bourdev, 2011</a>)</td>
+                <td><a href="https://www.proquest.com/openview/9400cedc31ee16a5110c317d2e7b2cd2/1?pq-origsite=gscholar&cbl=18750">Poselets</a></td>
+                <td>2011</td>
                 <td>642 instances in 334 images</td>
                 <td>This dataset have added keypoints and foreground annotation to PASCAL VOC 2011 (<a href="https://cir.nii.ac.jp/crid/1570572701023791360">Everingham et al.</a>) dataset.</td>
-                <td></td>
+                <td><a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/poselets/">Webpage</a></td>
             </tr>
 
             <tr>
-                <td>Animal3D (<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html">Xu et al., 2023</a>)</td>
+                <td><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html">Animal3D</a></td>
+                <td>2023</td>
                 <td>275 Ox and 43 Water Buffalo</td>
-                <td>Aiming to create a diverse and comprehensive dataset for 3d animal pose estimation, this dataset is a premier in its scope</td>
-                <td></td>
-            </tr>
-
-            
-
-            <tr>
-                <td>Animal3D (<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html">Xu et al., 2023</a>)</td>
-                <td>275 Ox and 43 Water Buffalo</td>
-                <td>Aiming to create a diverse and comprehensive dataset for 3d animal pose estimation, this dataset is a premier in its scope</td>
-                <td></td>
+                <td>Aiming to create a diverse and comprehensive dataset for 3d animal pose estimation, this dataset is a premier in its scope.</td>
+                <td><a href="https://xujiacong.github.io/Animal3D/">Webpage</a></td>
             </tr>
 
             <tr>
-                <td>Animal3D (<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html">Xu et al., 2023</a>)</td>
-                <td>275 Ox and 43 Water Buffalo</td>
-                <td>Aiming to create a diverse and comprehensive dataset for 3d animal pose estimation, this dataset is a premier in its scope</td>
-                <td></td>
+                <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0168169923003332?via%3Dihub">CMBN</a></td>
+                <td>2023</td>
+                <td>2432 images and 3101 instances</td>
+                <td>Combination of two datasets which includes crowded scenarios. This dataset is a good choice for methods focusing on multiple instance detection.</td>
+                <td><a href="https://github.com/fqcwd/CMBN">GitHub</a></td>
             </tr>
+
         </tbody>
     </table>
 
@@ -97,10 +97,12 @@
 
     <script>
         $(document).ready( function () {
-            $('#myTable').DataTable(
+            $('#datasetTable').DataTable(
                 {
+                    order: [[1, 'desc'], [0, 'asc']],
                     info: false,
-                    paging: false
+                    paging: false,
+                    searching: false
                 }
             );
         } );
